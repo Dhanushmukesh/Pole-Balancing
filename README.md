@@ -1,10 +1,8 @@
-# EX.1  Pole Balancing using Reinforcement Learning
-## Date:
+# EX.1 Pole Balancing using Reinforcement Learning
+## Date: 09-05-2026
 
 ## Aim
 The aim of this project is to develop a Reinforcement Learning agent that learns to balance a pole on a moving cart by interacting with the environment and maximizing cumulative rewards.
-
-
 
 # Algorithm
 
@@ -47,6 +45,9 @@ Repeat the process until the episode ends.
 
 ### Step 9
 Train the agent for multiple episodes to improve balancing performance.
+
+---
+
 # Program
 
 ```
@@ -134,13 +135,17 @@ while not done:
 
 env.close()
 print("Test Reward:", total_reward)
+
 ```
 
 # Output
 
-<img width="509" height="198" alt="{C58EAEDE-6382-4DF8-8AB7-EF29F5A063F7}" src="https://github.com/user-attachments/assets/69fd80ea-a73c-45de-a01b-3fd964db6982" />
+<img width="340" height="168" alt="Screenshot 2026-05-09 141059" src="https://github.com/user-attachments/assets/c1f75fee-50ac-47fd-97bb-d67af1b2392b" />
 
-# Result
+
+
+
+**# Result**
 
 The Reinforcement Learning agent successfully learned to balance the pole using the Q-Learning algorithm.  
 The reward increased gradually with training episodes, demonstrating that the agent improved its balancing strategy through learning and interaction with the environment.
